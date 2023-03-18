@@ -1,0 +1,26 @@
+.container {
+    text-align: center;
+    padding:  10rem;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #1776d1;
+}
+
+.li {
+    display: inline-block;
+        padding: 0px 20px;
+}

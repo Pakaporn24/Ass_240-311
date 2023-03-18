@@ -1,0 +1,148 @@
+.container {
+    padding: 1rem;
+    background-color: #191919;
+    color:#dadada;
+
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.details {
+    border: 1px solid #dadada;
+    border-radius: .25rem;
+    padding: 2rem;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.label {
+    font-size: 1rem;
+    color:rgb(66, 66, 66)
+}
+
+.value {
+    font-size: 1rem;
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.test {
+    display: flex;
+    background-color:#6e6e6eb0;
+    border-radius: .50rem;
+    padding: 2rem;
+    justify-content: space-around;
+    margin-left: 50px;
+    margin-right    : 50px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.img {
+    /* border: 1px solid #dadada; */
+    border-radius: 25px;
+    width: 400px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: #0084ff65;
+    color: #ffffff;
+}
+
+.li {
+    display: inline-block;
+    padding: 0px 25px;
+    font-size: 18px ;
+}
+
+.li:hover {
+    transition: all .35s;
+    color: black;
+}
+
+.box{
+	padding-top: 150px;
+	padding-bottom: 250px;
+	background: #191919;
+	text-align: center;
+	
+}
+
+.text {
+    border: 0 ;
+    background:none;
+    display: block;
+    margin:5px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #FFFF;
+    border-radius: 24px;
+    transition: 0.25s;
+
+}
+
+.content {
+    display: block;
+    margin-left: 50px;
+}
+
+.submit {
+    width: 100px;
+    height: 50px;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.pushupdate {
+    border: 0 ;
+		background-color: #0e4a84;
+		display: block;
+		margin:15px auto;
+		text-align: center;
+		padding: 5px 20px;
+		width: 100px;
+		outline: none;
+		color: #FFFF;
+		border-radius: 24px;
+		transition: 0.25s;
+		cursor: pointer;
+}
+
+.pushdel {
+    border: 0 ;
+		background-color:red;
+		display: block;
+		margin:15px auto;
+		text-align: center;
+		padding: 5px 20px;
+		width: 100px;
+		outline: none;
+		color: #FFFF;
+		border-radius: 24px;
+		transition: 0.25s;
+		cursor: pointer;
+}
+
+.set {
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.bghead {
+    width: 100%;
+}
